@@ -1,0 +1,28 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Ambienti virtuali e variabili d'ambiente
+.env
+Backend/.env
+Backend/venv/
+
+# Frontend
+Frontend/node_modules/
+Frontend/dist/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+
+Backend/Lib/
+Backend/Scripts/
+Backend/Include/
+Backend/pyvenv.cfg
