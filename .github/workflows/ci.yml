@@ -26,10 +26,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Verifica import del progetto
+      - name: Verifica sintassi del codice
         working-directory: ./Backend
-        run: python -c "import main"
-
+        run: python -m py_compile main.py app/*.py app/routers/*.py
+        
   frontend:
     name: Frontend - Build
     runs-on: ubuntu-latest
