@@ -26,11 +26,14 @@ cmd Frontend
 PostgreSQL
 ![Database](scrsht/PostgreSQL.png)
 
+Database
+![Archivio](scrsht/Database.png)
+
 Docker
 ![Container](scrsht/Container-Docker.png)
 
 
-![Libreria giochi](scrsht/libreria.png)
+
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
