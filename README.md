@@ -45,8 +45,8 @@ Render
 Game Tracker
 ![App](scrsht/Game-Tracker.png)
 
-
-![Libreria giochi](scrsht/libreria.png)
+Achivement
+![Premi](scrsht/Achivement.png)
 
 
 ## Stack
