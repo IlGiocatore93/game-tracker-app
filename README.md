@@ -16,36 +16,36 @@ Un'app per tenere traccia dei videogiochi che gioco, con un sistema di achieveme
 - Achievement che si sbloccano automaticamente in base a quello che fai nella libreria (tipo: aggiungi il primo gioco, completane 10, gioca a 5 generi diversi...)
 
 <br>
-cmd Backend
+cmd Backend - Il backend FastAPI avviato con uvicorn
 
 ![Backend](scrsht/cmd-Backend.png)
 
-cmd Frontend
+cmd Frontend - Il frontend Vite in modalità sviluppo
 ![Frontend](scrsht/cmd-Frontend.png)
 
-PostgreSQL
+PostgreSQL - Connessione al database dentro il container
 ![Database](scrsht/PostgreSQL.png)
 
-Database
+Database - Le tabelle create a partire dai modelli
 ![Archivio](scrsht/Database.png)
 
-Docker
+Docker - I tre container (frontend, backend, database) in esecuzione insieme
 ![Container](scrsht/Container-Docker.png)
 
-Twitch Developers
+Twitch Developers - L'app registrata per ottenere Client ID e Client Secret
 ![Console Sviluppatori](scrsht/dev.Twitch.Tv.png)
 
-SwaggerUI
+SwaggerUI - Gli endpoint disponibili, divisi per Authentication, Games, Achievements e schema dei dati che ogni endpoint si aspetta in ingresso/uscita
 ![Game Tracker API](scrsht/SwaggerUI-part1.png)
 ![Game Tracker API](scrsht/SwaggerUI-part2.png)
 
-Render
+Render - I tre servizi live, ognuno deployato e monitorato indipendentemente
 ![Deploy](scrsht/Progetti-Render.png)
 
-Game Tracker
+Game Tracker - La libreria personale, con i giochi aggiunti e il loro stato
 ![App](scrsht/Game-Tracker.png)
 
-Achivement
+Achivement - trofei si sbloccano da soli quando raggiungi le condizioni richieste
 ![Premi](scrsht/Achivement.png)
 
 
