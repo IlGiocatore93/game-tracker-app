@@ -15,6 +15,21 @@ Un'app per tenere traccia dei videogiochi che gioco, con un sistema di achieveme
 - Libreria personale: aggiungi giochi, segna lo stato (da giocare / in corso / completato), ore giocate, voto
 - Achievement che si sbloccano automaticamente in base a quello che fai nella libreria (tipo: aggiungi il primo gioco, completane 10, gioca a 5 generi diversi...)
 
+
+
+![Backend](scrsht/cmd-Backend.png)
+![Libreria giochi](scrsht/libreria.png)
+![Libreria giochi](scrsht/libreria.png)
+![Libreria giochi](scrsht/libreria.png)
+![Libreria giochi](scrsht/libreria.png)
+![Libreria giochi](scrsht/libreria.png)
+![Libreria giochi](scrsht/libreria.png)
+![Libreria giochi](scrsht/libreria.png)
+![Libreria giochi](scrsht/libreria.png)
+![Libreria giochi](scrsht/libreria.png)
+![Libreria giochi](scrsht/libreria.png)
+
+
 ## Stack
 
 **Backend:** Python, FastAPI, SQLAlchemy, PostgreSQL
