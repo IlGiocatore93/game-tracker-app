@@ -39,8 +39,9 @@ SwaggerUI
 ![Game Tracker API](scrsht/SwaggerUI-part1.png)
 ![Game Tracker API](scrsht/SwaggerUI-part2.png)
 
+Render
+![Deploy](scrsht/Progetti-Render.png)
 
-![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
 
