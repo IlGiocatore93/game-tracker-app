@@ -23,7 +23,10 @@ cmd Backend
 cmd Frontend
 ![Frontend](scrsht/cmd-Frontend.png)
 
-![Libreria giochi](scrsht/libreria.png)
+PostgreSQL
+![Database](scrsht/PostgreSQL.png)
+
+
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
