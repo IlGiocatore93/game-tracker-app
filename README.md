@@ -27,7 +27,7 @@ PostgreSQL
 ![Database](scrsht/PostgreSQL.png)
 
 Database
-![Archivio](scrsht/Database.png)
+![Archivio](scrsht/)
 
 Docker
 ![Container](scrsht/Container-Docker.png)
