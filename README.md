@@ -1,10 +1,11 @@
 # Game Tracker App 2026
 
-Un'app per tenere traccia dei videogiochi che gioco, con un sistema di achievement ispirato ai trofei PlayStation. L'ho costruita come progetto di portfolio, cercando di allinearmi allo stack tecnico di un'azienda a cui mi sto candidando come Fullstack Developer.
-
+Un'app per tenere traccia dei videogiochi che gioco, con un sistema di achievement ispirato ai trofei PlayStation. L'ho costruita come progetto per un portfolio.
+<br>
 🔗 **Demo live:** https://gametracker-frontend-wpzb.onrender.com
+<br>
 🔗 **API backend:** https://gametracker-backend-o9ym.onrender.com/docs
-
+<br>
 > Gira su piano gratuito Render: al primo accesso può metterci 30-60 secondi a "svegliarsi", poi va normalmente.
 
 ## Cosa fa
@@ -23,7 +24,7 @@ Un'app per tenere traccia dei videogiochi che gioco, con un sistema di achieveme
 
 ## Perché questo stack
 
-L'annuncio a cui mi sto candidando richiede React/TypeScript, Python/FastAPI, PostgreSQL, SQLAlchemy e Docker, quindi ho costruito il progetto attorno a queste tecnologie invece di usare quello che magari mi avrebbe fatto risparmiare tempo.
+Ho deciso di seguire le ultime tecnologie che ho appreso e più utilizzate come: React/TypeScript, Python/FastAPI, PostgreSQL, SQLAlchemy e Docker, quindi ci  ho costruito attorno il progetto invece di usare quello che magari mi avrebbe fatto risparmiare tempo.
 
 ## Come è fatto sotto
 
@@ -60,7 +61,3 @@ Il progetto è funzionante end-to-end ma ci sono un po' di cose che vorrei aggiu
 - Un sistema di missioni che sbloccano progressivamente sezioni dell'app (progettato ma tagliato per rispettare i tempi)
 - Pipeline CI più completa, con un database di test invece del solo controllo di sintassi
 - Un sito portfolio a parte che raccoglie questo e altri progetti
-
-## Una nota sul debug
-
-Buona parte del tempo su questo progetto se n'è andata in problemi "banali" ma reali — conflitti di versione tra librerie, un `.gitignore` finito nella cartella sbagliata che escludeva mezzo backend da Git, variabili d'ambiente dimenticate nel deploy. Niente di glamour, ma è il genere di cose che poi capitano davvero sul lavoro, quindi l'ho lasciato come promemoria a me stesso più che altro.
