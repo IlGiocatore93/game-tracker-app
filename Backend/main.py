@@ -8,13 +8,18 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Game Tracker API")
 
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://gametracker-frontend-wpzb.onrender.com",  # sostituisci con il tuo URL reale
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 app.include_router(auth.router)
 app.include_router(games.router)
