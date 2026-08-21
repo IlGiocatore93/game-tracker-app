@@ -42,7 +42,10 @@ SwaggerUI
 Render
 ![Deploy](scrsht/Progetti-Render.png)
 
-![Libreria giochi](scrsht/libreria.png)
+Game Tracker
+![App](scrsht/Game-Tracker.png)
+
+
 ![Libreria giochi](scrsht/libreria.png)
 
 
