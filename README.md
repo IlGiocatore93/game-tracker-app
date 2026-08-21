@@ -32,9 +32,10 @@ Database
 Docker
 ![Container](scrsht/Container-Docker.png)
 
+Twitch Developers
+![Console Sviluppatori](scrsht/dev.Twitch.Tv.png)
 
 
-![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
