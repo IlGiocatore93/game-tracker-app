@@ -17,7 +17,9 @@ Un'app per tenere traccia dei videogiochi che gioco, con un sistema di achieveme
 
 <br>
 cmd Backend
+
 ![Backend](scrsht/cmd-Backend.png)
+
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
