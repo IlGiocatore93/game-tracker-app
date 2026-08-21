@@ -1,4 +1,4 @@
-# Game Tracker App 2026
+# Game Tracker App 2026🎮 🏆 🐍 📘
 
 Un'app per tenere traccia dei videogiochi che gioco, con un sistema di achievement ispirato ai trofei PlayStation. L'ho costruita come progetto per un portfolio.
 <br>
