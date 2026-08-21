@@ -20,7 +20,9 @@ cmd Backend
 
 ![Backend](scrsht/cmd-Backend.png)
 
-![Libreria giochi](scrsht/libreria.png)
+cmd Frontend
+![Frontend](scrsht/cmd-Frontend.png)
+
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
