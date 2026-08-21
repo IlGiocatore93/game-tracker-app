@@ -35,9 +35,11 @@ Docker
 Twitch Developers
 ![Console Sviluppatori](scrsht/dev.Twitch.Tv.png)
 
+SwaggerUI
+![Game Tracker API](scrsht/SwaggerUI-part1.png)
+![Game Tracker API](scrsht/SwaggerUI-part2.png)
 
-![Libreria giochi](scrsht/libreria.png)
-![Libreria giochi](scrsht/libreria.png)
+
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
 ![Libreria giochi](scrsht/libreria.png)
