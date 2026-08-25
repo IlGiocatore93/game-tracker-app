@@ -1,0 +1,262 @@
+LOGIN
+
+{
+  "email": "prova2@test.com",
+  "password": "password123"
+}
+
+
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "token_type": "bearer"
+}
+
+REGISTRAZIONE
+
+{
+  "email": "test@test.com",
+  "username": "testuser",
+  "password": "password123"
+}
+
+
+RAVVIO SERVER
+uvicorn main:app --reload
+
+
+POSTGRES
+
+docker exec -it gametracker_db psql -U gametracker -d gametracker_db
+SELECT id, email, username FROM users;----> creare tabella
+SELECT * FROM user_games;----> cancellare tabella  -- contenuto/dati della tabella
+DELETE FROM user_games WHERE id = 1
+SELECT * FROM games;
+SELECT COUNT(*) FROM user_games;
+SELECT * FROM user_games ORDER BY added_at DESC;
+DELETE FROM games WHERE title = 'string';
+\d user_games                 -- struttura della tabella (colonne)
+\q
+
+gametracker_db=# \dt     PER LISTA classi
+Per uscire da psql: \q
+
+
+
+python -m app.seed_achievements
+
+
+
+
+
+
+
+
+
+CREAZIONE CARTELLA FRONTEND 
+
+npm create vite@latest Frontend -- --template react-ts
+
+CREA CARTELLE FRONTEND (REACT)
+mkdir src/components src/pages src/context src/services src/types
+
+
+FUNZIONE APP.TSX
+function App() {
+  return (
+    <div>
+      <h1>Game Tracker</h1>
+    </div>
+  )
+}
+
+export default App
+
+
+
+REACT ROUTER 
+
+npm install react-router-dom
+
+dir ---> per vedere le sottocartelle da dentro
+
+
+npm run dev----> riavviare FRONTEND VITE dentro la cartelle generale
+
+
+
+BACKEND
+
+curl -X POST http://localhost:8000/auth/register -H "Content-Type: application/json" -d "{\"email\":\"test999@test.com\",\"username\":\"test999\",\"password\":\"password123\"}"
+
+(Backend) C:\Users\Jhon Whitely\Desktop\quarto progetto - portfolio\Backend>curl -X POST http://localhost:8000/auth/register -H "Content-Type: application/json" -d "{\"email\":\"test999@test.com\",\"username\":\"test999\",\"password\":\"password123\"}"
+{"id":3,"email":"test999@test.com","username":"test999"}
+(Backend) C:\Users\Jhon Whitely\Desktop\quarto progetto - portfolio\Backend>
+
+GITHUB ACTIONS
+git init
+
+
+
+type Backend\.gitignore---> x vedere cosa c'e scritto dentro
+del Backend\.gitignore----> cancella il file
+git status ---> file all'interno
+git add.
+git status
+git reset----> annulli tutto
+
+rmdir /s Backend\Include
+rmdir /s Backend\Lib
+rmdir /s Backend\Scripts
+del Backend\pyvenv.cfg------> x cancellare delle cartelle
+docker compose up --build---->per fare il compose
+
+PRIMO COMMIT
+git commit -m "Initial commit: backend, frontend e docker setup"
+
+
+
+
+
+
+
+
+
+
+
+git remote add origin https://github.com/TUOUSERNAME/NOMEREPO.git
+````//
+(sostituisci con l'URL vero copiato da GitHub)
+
+## Verifica il nome del branch
+
+Su GitHub il branch principale si chiama solitamente `main`, mentre il tuo locale è `master` (l'hai visto scritto "On branch master" negli screenshot). Rinominiamolo per allinearci allo standard moderno:
+
+```bash
+git branch -M main
+```
+
+## Push finale
+
+```bash
+git push -u origin main
+```
+
+Questo carica tutto il codice sul repository GitHub. Ti potrebbe chiedere di autenticarti (username + token, non la password diretta — GitHub non accetta più password dirette da riga di comando, serve un Personal Access Token, ma se hai già configurato Git con credenziali salvate potrebbe non chiedertelo).
+
+Prova il commit per primo, e fammi sapere l'esito prima di procedere con remote/push — un passo alla volta.
+
+
+
+git config --global user.email "b_giova93@hotmail.com"------>IDENTITA' GIT
+
+git config --global user.name "IlGiocatore93"
+git commit -m "Initial commit: backend, frontend e docker setup"
+
+
+mkdir .GitHub ---------->Creazione GitHub Actions
+mkdir .github\workflows
+
+
+ci.yml
+
+name: CI Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  backend:
+    name: Backend - Install & Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout codice
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installa dipendenze
+        working-directory: ./Backend
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verifica import del progetto
+        working-directory: ./Backend
+        run: python -c "import main"
+
+  frontend:
+    name: Frontend - Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout codice
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Installa dipendenze
+        working-directory: ./Frontend
+        run: npm ci
+
+      - name: Build
+        working-directory: ./Frontend
+        run: npm run build
+
+
+git status
+git add .
+git commit -m "Aggiunta pipeline CI GitHub Actions"-----> crea la pipeline
+git push
+
+netstat -ano | findstr :5173----> quando ci sono più porte attive controllarle con sto comando
+
+
+git add .
+git commit -m "Fix pipeline: verifica sintassi invece di import diretto"
+git push
+
+
+postgres URL render: postgresql://gametrackerapp26_user:KS126NaL1jjvvTAVzvxGL2mzAlxZt5is@dpg-da35c83bc2fs7389q68g-a/gametrackerapp26
+
+
+
+Rigenera requirements.txt dal venv corretto (dentro Backend/, con venv attivo):
+pip freeze > requirements.txt
+
+
+Verifica che ora requests sia presente nel file:
+findstr requests requirements.txt
+
+Dovrebbe mostrarti una riga tipo requests==2.x.x.
+
+
+git add .
+git commit -m "Fix: aggiunta libreria requests mancante in requirements.txt"
+git push
+
+https://gametracker-backend-o9ym.onrender.com/health
+
+
+
+
+git add .
+git commit -m "Aggiorna CORS per includere frontend deployato"
+git push
+
+
+
+Certo! Usa queste per il test:
+
+Email: demo.tester@example.com
+Username: demotester
+Password: Demo1234!
