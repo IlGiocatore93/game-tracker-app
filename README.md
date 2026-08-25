@@ -156,7 +156,7 @@ Il progetto è funzionante end-to-end ma ci sono un po' di cose che vorrei aggiu
 - Un sito portfolio a parte che raccoglie questo e altri progetti
 
 
-<br>
+<br><br>
 🤝 Vuoi contribuire e migliorare il progetto?💭 Apri una Issue o una Pull Request su Github!💡
 
 
