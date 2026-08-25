@@ -37,7 +37,7 @@ cmd Backend - Il backend FastAPI avviato con uvicorn
 cmd Frontend - Il frontend Vite in modalità sviluppo
 ![Frontend](scrsht/cmd-Frontend.png)
 
-PostgreSQL - Connessione al database dentro il container
+PostgreSQL/SQLAlchemy - Connessione al database dentro il container
 ![Database](scrsht/PostgreSQL.png)
 
 Database - Le tabelle create a partire dai modelli
