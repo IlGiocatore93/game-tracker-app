@@ -3,6 +3,8 @@
 **_"Primo vero progetto di sviluppo"_**
 
 
+Benvenuto nel mio progetto Github!🎯 **Sono Giovanni**, studente DevOps, amante dell'informatica e di ogni tecnologia esistente. 
+
 Un'app per tenere traccia dei videogiochi che gioco, con un sistema di achievement ispirato ai trofei PlayStation. L'ho costruita come progetto per un portfolio.
 <br>
 🔗 **Demo live:** https://gametracker-frontend-wpzb.onrender.com
