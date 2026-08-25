@@ -73,6 +73,7 @@ Serve Docker installato. Poi:
 
 
 Crea un file .env nella root con:
+
   
 - SECRET_KEY=una_stringa_casuale_lunga
 - IGDB_CLIENT_ID=il_tuo_client_id
