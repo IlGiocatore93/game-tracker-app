@@ -64,16 +64,16 @@ Ho deciso di seguire le ultime tecnologie che ho appreso e più utilizzate come:
 
 Il pezzo che mi è piaciuto di più costruire è il sistema di achievement: ogni volta che aggiungi o aggiorni un gioco nella libreria, il backend controlla in automatico se hai sbloccato qualche trofeo, confrontando le tue statistiche (giochi aggiunti, completati, generi diversi giocati) con le condizioni salvate nel database. Niente hardcoded — se un giorno voglio aggiungere un nuovo achievement basta inserire una riga nel database.
 
-Far girare il progetto in locale
 
+## Far girare il progetto in locale
 Serve Docker installato. Poi:
 
-bash
-git clone https://github.com/IlGiocatore93/game-tracker-app.git
-cd game-tracker-app
+>git clone https://github.com/IlGiocatore93/game-tracker-app.git
+>cd game-tracker-app
 
-Crea un file .env nella root con:
 
+- Crea un file .env nella root con:
+  
 SECRET_KEY=una_stringa_casuale_lunga
 IGDB_CLIENT_ID=il_tuo_client_id
 IGDB_CLIENT_SECRET=il_tuo_client_secret
@@ -82,10 +82,9 @@ IGDB_CLIENT_SECRET=il_tuo_client_secret
 
 Poi:
 
-bash
-docker compose up --build
+>docker compose up --build
 
-Frontend su localhost:5173, backend su localhost:8000 (documentazione API su localhost:8000/docs).
+>Frontend su localhost:5173, backend su localhost:8000 (documentazione API su localhost:8000/docs).
 
 ## Comandi utili
 
@@ -93,19 +92,16 @@ Un promemoria dei comandi che uso più spesso lavorando su questo progetto.
 
 ## Docker
 
-bash
-docker compose up --build     # avvia tutto (db + backend + frontend)
+docker compose up --build     # avvia tutto e crea (db + backend + frontend)
 docker compose down           # ferma e rimuove i container
 docker ps                     # vedere i container attivi
 
-## Database (dentro il container)
+## Database (dentro il container) -- PostgreSQL
 
-bash
 docker exec -it gametracker_db psql -U gametracker -d gametracker_db
 
 Una volta dentro:
 
-sql
 \dt                          -- lista tabelle
 \d nome_tabella               -- struttura di una tabella
 SELECT * FROM nome_tabella;   -- vedere i dati
@@ -113,7 +109,6 @@ SELECT * FROM nome_tabella;   -- vedere i dati
 
 ## Backend (Python)
 
-bash
 cd Backend
 venv\Scripts\activate          # Windows
 pip install -r requirements.txt
@@ -122,7 +117,6 @@ uvicorn main:app --reload      # avvio in locale senza Docker
 
 ## Frontend (Node)
 
-bash
 cd Frontend
 npm install
 npm run dev                    # avvio in locale senza Docker
@@ -130,7 +124,6 @@ npm run build                  # build di produzione
 
 ## Git
 
-bash
 git status
 git add .
 git commit -m "descrizione"
@@ -140,7 +133,6 @@ git push
 ## Cosa manca / prossimi passi
 
 Il progetto è funzionante end-to-end ma ci sono un po' di cose che vorrei aggiungere quando ho tempo:
-
-Un sistema di missioni che sbloccano progressivamente sezioni dell'app (progettato ma tagliato per rispettare i tempi)
-Pipeline CI più completa, con un database di test invece del solo controllo di sintassi
-Un sito portfolio a parte che raccoglie questo e altri progetti
+- Un sistema di missioni che sbloccano progressivamente sezioni dell'app (progettato ma tagliato per rispettare i tempi)
+- Pipeline CI più completa, con un database di test invece del solo controllo di sintassi
+- Un sito portfolio a parte che raccoglie questo e altri progetti
