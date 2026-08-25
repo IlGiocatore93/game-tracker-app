@@ -74,9 +74,9 @@ Serve Docker installato. Poi:
 
 - Crea un file .env nella root con:
   
-SECRET_KEY=una_stringa_casuale_lunga
-IGDB_CLIENT_ID=il_tuo_client_id
-IGDB_CLIENT_SECRET=il_tuo_client_secret
+- SECRET_KEY=una_stringa_casuale_lunga
+- IGDB_CLIENT_ID=il_tuo_client_id
+- IGDB_CLIENT_SECRET=il_tuo_client_secret
 
 (Il Client ID/Secret di IGDB si ottengono registrando un'app su dev.twitch.tv, è gratis.)
 
