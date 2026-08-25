@@ -68,8 +68,8 @@ Il pezzo che mi è piaciuto di più costruire è il sistema di achievement: ogni
 ## Far girare il progetto in locale
 Serve Docker installato. Poi:
 
->git clone https://github.com/IlGiocatore93/game-tracker-app.git
->cd game-tracker-app
+- > git clone https://github.com/IlGiocatore93/game-tracker-app.git
+- > cd game-tracker-app
 
 
 - Crea un file .env nella root con:
