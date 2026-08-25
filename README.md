@@ -154,3 +154,24 @@ Il progetto è funzionante end-to-end ma ci sono un po' di cose che vorrei aggiu
 - Un sistema di missioni che sbloccano progressivamente sezioni dell'app (progettato ma tagliato per rispettare i tempi)
 - Pipeline CI più completa, con un database di test invece del solo controllo di sintassi
 - Un sito portfolio a parte che raccoglie questo e altri progetti
+
+
+
+🤝 Vuoi contribuire e migliorare il progetto?💭 Apri una Issue o una Pull Request su Github!💡
+
+
+<br>
+
+Licenza: MIT - Libero di esplorare, migliorare e condividere.
+
+
+<br>
+
+
+🧑‍💻 Creato da: [Giovanni](https://github.com/IlGiocatore93)
+
+
+
+<br>
+
+🤙 Se ti è piaciuto il progetto, lascia una ✨ su GitHub!🌐
