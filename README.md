@@ -47,6 +47,7 @@ Render - I tre servizi live, ognuno deployato e monitorato indipendentemente
 
 Game Tracker - La libreria personale, con i giochi aggiunti e il loro stato
 ![App](scrsht/Game-Tracker.png)
+![App](scrsht)/GameTrackerv2.png)
 
 Achivement - trofei si sbloccano da soli quando raggiungi le condizioni richieste
 ![Premi](scrsht/Achivement.png)
