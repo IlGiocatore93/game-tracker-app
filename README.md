@@ -94,9 +94,9 @@ Un promemoria dei comandi che uso più spesso lavorando su questo progetto.
 
 ## Docker
 
-◆ docker compose up --build     # avvia tutto e crea (db + backend + frontend)
-◆ docker compose down           # ferma e rimuove i container
-◆ docker ps                     # vedere i container attivi
+→ docker compose up --build     # avvia tutto e crea (db + backend + frontend)
+→ docker compose down           # ferma e rimuove i container
+→ docker ps                     # vedere i container attivi
 
 ## Database (dentro il container) -- PostgreSQL
 
