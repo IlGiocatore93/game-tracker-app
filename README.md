@@ -88,6 +88,19 @@ docker compose up --build
 - > Frontend su localhost:5173
 - > backend su localhost:8000 (documentazione API su localhost:8000/docs).
 
+
+
+  ## Deploy
+
+Il progetto è online su Render, con tre servizi separati e indipendenti:
+
+- > Database — PostgreSQL, piano gratuito
+- > Backend — Web Service Docker, build automatica dal Dockerfile in Backend/
+- > Frontend — Web Service Docker, build multi-stage (Node per la build, Nginx per servire i file statici)
+
+- Ogni push su main triggera automaticamente un nuovo deploy su entrambi i servizi (backend e frontend), grazie al collegamento diretto tra Render e il repository GitHub.
+- Le variabili d'ambiente (connessione al database, chiavi IGDB, secret JWT, URL del backend per il frontend) sono configurate direttamente nella dashboard di Render, non nel codice.
+
 ## Comandi utili
 
 Un promemoria dei comandi che uso più spesso lavorando su questo progetto.
