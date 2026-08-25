@@ -1,6 +1,6 @@
 # Game Tracker App 2026🎮 🏆 🐍 📘
 
-**_Primo vero progetto di sviluppo_**
+**_"Primo vero progetto di sviluppo"_**
 
 
 Un'app per tenere traccia dei videogiochi che gioco, con un sistema di achievement ispirato ai trofei PlayStation. L'ho costruita come progetto per un portfolio.
