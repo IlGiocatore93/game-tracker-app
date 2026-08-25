@@ -98,7 +98,7 @@ Un promemoria dei comandi che uso più spesso lavorando su questo progetto.
 - > docker compose down           # ferma e rimuove i container
 - > docker ps                     # vedere i container attivi
 
-## Database (dentro il container) -- PostgreSQL
+## Database (dentro il container) -- PostgreSQL/SQLAlchemy
 
 - docker exec -it gametracker_db psql -U gametracker -d gametracker_db
 
