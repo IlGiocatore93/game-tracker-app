@@ -85,8 +85,8 @@ Poi:
 
 docker compose up --build
 
-Frontend su localhost:5173
-backend su localhost:8000 (documentazione API su localhost:8000/docs).
+-> Frontend su localhost:5173
+-> backend su localhost:8000 (documentazione API su localhost:8000/docs).
 
 ## Comandi utili
 
