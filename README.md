@@ -100,36 +100,36 @@ Un promemoria dei comandi che uso più spesso lavorando su questo progetto.
 
 ## Database (dentro il container) -- PostgreSQL
 
-docker exec -it gametracker_db psql -U gametracker -d gametracker_db
+- docker exec -it gametracker_db psql -U gametracker -d gametracker_db
 
 Una volta dentro:
 
-\dt                          -- lista tabelle
-\d nome_tabella               -- struttura di una tabella
-SELECT * FROM nome_tabella;   -- vedere i dati
-\q                            -- uscire
+- > \dt                          -- lista tabelle
+- > \d nome_tabella               -- struttura di una tabella
+- > SELECT * FROM nome_tabella;   -- vedere i dati
+- > \q                            -- uscire
 
 ## Backend (Python)
 
-cd Backend
-venv\Scripts\activate          # Windows
-pip install -r requirements.txt
-pip freeze > requirements.txt  # dopo aver installato una nuova libreria
-uvicorn main:app --reload      # avvio in locale senza Docker
+- cd Backend
+- venv\Scripts\activate          # Windows
+- pip install -r requirements.txt
+- pip freeze > requirements.txt  # dopo aver installato una nuova libreria
+- uvicorn main:app --reload      # avvio in locale senza Docker
 
 ## Frontend (Node)
 
-cd Frontend
-npm install
-npm run dev                    # avvio in locale senza Docker
-npm run build                  # build di produzione
+- cd Frontend
+- npm install
+- npm run dev                    # avvio in locale senza Docker
+- npm run build                  # build di produzione
 
 ## Git
 
-git status
-git add .
-git commit -m "descrizione"
-git push
+- > git status
+- > git add .
+- > git commit -m "descrizione"
+- > git push
 
 
 ## Cosa manca / prossimi passi
